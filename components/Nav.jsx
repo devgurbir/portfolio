@@ -7,9 +7,9 @@ const Nav = () => {
     <nav className={styles.nav}>
       <div className={styles.logo}>
         <div className="container">
-          <a href="/">
+          <Link href="/">
             <img src="/logo-1.png" alt="" />
-          </a>
+          </Link>
         </div>
       </div>
       <div className={styles.navLinkDiv}>
