@@ -33,10 +33,14 @@ const ProjectSingleSugarCosmetics = () => {
         </div>
         <div className={styles.linkIcons}>
           <a href="#">
-            <FaLink />
+            <Link href="https://sugar-cosm.netlify.app/">
+              <FaLink />
+            </Link>
           </a>
           <a href="#">
-            <FaGithub />
+            <Link href="https://github.com/devgurbir/sugarCosmetics">
+              <FaGithub />
+            </Link>
           </a>
         </div>
       </div>

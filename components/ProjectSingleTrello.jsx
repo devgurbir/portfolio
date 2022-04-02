@@ -34,10 +34,14 @@ const ProjectSingleTrello = () => {
         </div>
         <div className={styles.linkIcons}>
           <a href="#">
-            <FaLink />
+            <Link href="https://trello-clone-gurbir.netlify.app/">
+              <FaLink />
+            </Link>
           </a>
           <a href="#">
-            <FaGithub />
+            <Link href="https://github.com/devgurbir/trello-clone-solo">
+              <FaGithub />
+            </Link>
           </a>
         </div>
       </div>
