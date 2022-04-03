@@ -32,16 +32,12 @@ const ProjectSingleSugarCosmetics = () => {
           <TechStackPills text="Redux" />
         </div>
         <div className={styles.linkIcons}>
-          <a href="#">
-            <Link href="https://sugar-cosm.netlify.app/">
-              <FaLink />
-            </Link>
-          </a>
-          <a href="#">
-            <Link href="https://github.com/devgurbir/sugarCosmetics">
-              <FaGithub />
-            </Link>
-          </a>
+          <Link href="https://sugar-cosm.netlify.app/">
+            <FaLink />
+          </Link>
+          <Link href="https://github.com/devgurbir/sugarCosmetics">
+            <FaGithub />
+          </Link>
         </div>
       </div>
       <div className={styles.rightProjectSingle + " " + styles.sugarcosm}></div>
