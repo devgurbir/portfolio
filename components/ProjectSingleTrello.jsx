@@ -3,6 +3,7 @@ import styles from "../styles/Projects.module.css";
 import TechStackPills from "./TechStackPills";
 import { FaLink } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import Link from "next/link";
 
 const ProjectSingleTrello = () => {
   return (
