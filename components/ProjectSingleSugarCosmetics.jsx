@@ -26,7 +26,7 @@ const ProjectSingleSugarCosmetics = () => {
           </li>
         </ul>
         <div className={styles.techStack}>
-          <TechStackPills text="HTML" />
+          <TechStackPills text="HTML5" />
           <TechStackPills text="CSS" />
           <TechStackPills text="React" />
           <TechStackPills text="Redux" />
