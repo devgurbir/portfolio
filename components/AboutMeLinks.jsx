@@ -19,7 +19,7 @@ const AboutMeLinks = () => {
           <span>Github</span>
         </div>
       </Link>
-      <Link href="https://drive.google.com/file/d/1PL0rYXeRavLXAPO4YuiLK0lhh6G_ICU-/view">
+      <Link href="https://drive.google.com/file/d/1JKRDqIoW-ksBZqY5u6QJU48UtIa-46p3/view?usp=sharing">
         <div className={styles.aboutMeIconsDiv}>
           <FaArchive />
           <span>Resume</span>

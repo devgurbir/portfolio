@@ -86,7 +86,7 @@
   gap: 2rem;
 }
 
-.linkIcons:hover {
+.linkIcons svg:hover {
   /* color: #b91372; */
   background-color: #b91372;
   color: #fff;

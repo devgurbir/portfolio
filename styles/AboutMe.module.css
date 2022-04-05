@@ -86,8 +86,20 @@
   align-items: center;
 }
 
+.aboutMeIcons svg {
+  cursor: pointer;
+}
+
+.aboutMeIcons svg:hover {
+  background-color: #b91372;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 3px;
+}
+
 .aboutMeIcons span {
   font-size: 1rem;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 768px) {
