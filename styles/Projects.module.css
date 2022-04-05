@@ -86,6 +86,14 @@
   gap: 2rem;
 }
 
+.linkIcons:hover {
+  /* color: #b91372; */
+  background-color: #b91372;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 3px;
+}
+
 @media only screen and (max-width: 768px) {
   .projectSingle {
     flex-direction: column-reverse;
