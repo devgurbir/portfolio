@@ -34,10 +34,18 @@ const ProjectSingleSugarCosmetics = () => {
         </div>
         <div className={styles.linkIcons}>
           <Link href="https://sugar-cosm.netlify.app/">
-            <FaLink />
+            <div className={styles.singleLinkIcon}>
+              <FaLink />
+              <span>Website</span>
+            </div>
           </Link>
-          <Link href="https://github.com/devgurbir/sugarCosmetics">
-            <FaGithub />
+          <Link
+            href="https://github.com/devgurbir/sugarCosmetics"
+            className={styles.singleLinkIcon}
+          >
+            <div className={styles.singleLinkIcon}>
+              <FaGithub /> <span>Github</span>
+            </div>
           </Link>
         </div>
       </div>

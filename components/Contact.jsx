@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../styles/SoftSkills.module.css";
 const Contact = () => {
   return (
-    <div id="contact" style={{ backgroundColor: "#1E1A1D" }}>
+    <div id="contact" style={{ backgroundColor: "#303036" }}>
       <div className={styles.container}>
         <h2>GET IN TOUCH</h2>
         <div className={styles.box}>

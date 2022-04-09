@@ -35,10 +35,16 @@ const ProjectSingleTrello = () => {
         </div>
         <div className={styles.linkIcons}>
           <Link href="https://trello-clone-gurbir.netlify.app/">
-            <FaLink />
+            <div className={styles.singleLinkIcon}>
+              <FaLink />
+              <span>Website</span>
+            </div>
           </Link>
           <Link href="https://github.com/devgurbir/trello-clone-solo">
-            <FaGithub />
+            <div className={styles.singleLinkIcon}>
+              <FaGithub />
+              <span>Github</span>
+            </div>
           </Link>
         </div>
       </div>

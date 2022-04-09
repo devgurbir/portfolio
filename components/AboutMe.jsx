@@ -5,7 +5,7 @@ import AboutMeText from "./AboutMeText";
 
 const AboutMe = () => {
   return (
-    <div className={styles.container}>
+    <div id="aboutme" className={styles.container}>
       <div className={styles.left}>
         <AboutMeText />
       </div>

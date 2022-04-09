@@ -28,6 +28,7 @@
 
 .rightProjectSingle {
   width: 50%;
+
   /* border: 1px solid white; */
 }
 
@@ -86,12 +87,26 @@
   gap: 2rem;
 }
 
-.linkIcons svg:hover {
+.singleLinkIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25em;
+  padding: 0.25em;
+  cursor: pointer;
+}
+
+.singleLinkIcon:hover {
   /* color: #b91372; */
   background-color: #b91372;
   color: #fff;
-  padding: 0.5rem;
+  transition: all 0.25s linear;
+
   border-radius: 3px;
+}
+
+.linkIcons span {
+  font-size: 0.5em;
 }
 
 @media only screen and (max-width: 768px) {
@@ -103,5 +118,6 @@
   }
   .rightProjectSingle {
     width: 100%;
+    min-height: 200px;
   }
 }
