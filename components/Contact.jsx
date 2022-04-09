@@ -25,6 +25,7 @@ const Contact = () => {
             <span>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://www.linkedin.com/in/gurbir-singh-20641a157/"
               >
                 Link
@@ -48,10 +49,7 @@ const Contact = () => {
         {/* <div className={styles.getInTouchLinkedin}>
           <p>
             Or feel free to drop me a DM on{" "}
-            <a
-              target="_blank"
-              href="https://www.linkedin.com/in/gurbir-singh-20641a157/"
-            >
+          
               LinkedIn
             </a>
           </p>

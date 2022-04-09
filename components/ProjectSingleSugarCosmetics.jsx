@@ -40,6 +40,7 @@ const ProjectSingleSugarCosmetics = () => {
             </div>
           </a>
           <a
+            rel="noreferrer"
             target="_blank"
             href="https://github.com/devgurbir/sugarCosmetics"
             className={styles.singleLinkIcon}
