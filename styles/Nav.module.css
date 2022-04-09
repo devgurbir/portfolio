@@ -10,6 +10,18 @@
   align-items: center;
 }
 
+.highlighted {
+  background-color: #b91372;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 3px;
+}
+
+.highlighted:hover {
+  background-color: #303036;
+  border: 2px solid #fff;
+}
+
 .logo {
   width: 50%;
   background-color: #1e1a1d;

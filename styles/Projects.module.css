@@ -85,6 +85,7 @@
   font-size: 3em;
   display: flex;
   gap: 2rem;
+  align-items: center;
 }
 
 .singleLinkIcon {
@@ -94,6 +95,7 @@
   gap: 0.25em;
   padding: 0.25em;
   cursor: pointer;
+  border-radius: 3px;
 }
 
 .singleLinkIcon:hover {
@@ -101,8 +103,6 @@
   background-color: #b91372;
   color: #fff;
   transition: all 0.25s linear;
-
-  border-radius: 3px;
 }
 
 .linkIcons span {

@@ -34,18 +34,21 @@ const ProjectSingleTrello = () => {
           <TechStackPills text="MongoDB" />
         </div>
         <div className={styles.linkIcons}>
-          <Link href="https://trello-clone-gurbir.netlify.app/">
+          <a target="_blank" href="https://trello-clone-gurbir.netlify.app/">
             <div className={styles.singleLinkIcon}>
               <FaLink />
               <span>Website</span>
             </div>
-          </Link>
-          <Link href="https://github.com/devgurbir/trello-clone-solo">
+          </a>
+          <a
+            target="_blank"
+            href="https://github.com/devgurbir/trello-clone-solo"
+          >
             <div className={styles.singleLinkIcon}>
               <FaGithub />
               <span>Github</span>
             </div>
-          </Link>
+          </a>
         </div>
       </div>
       <div className={styles.rightProjectSingle + " " + styles.trello}></div>

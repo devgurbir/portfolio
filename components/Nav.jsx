@@ -27,6 +27,15 @@ const Nav = () => {
             <li>
               <Link href="#contact">Contact</Link>
             </li>
+            <li>
+              <a
+                className={styles.highlighted}
+                target="_blank"
+                href="https://drive.google.com/file/d/1JKRDqIoW-ksBZqY5u6QJU48UtIa-46p3/view?usp=sharing"
+              >
+                Resume
+              </a>
+            </li>
           </ul>
         </div>
       </div>

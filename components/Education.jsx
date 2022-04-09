@@ -3,7 +3,7 @@ import styles from "../styles/Education.module.css";
 
 const Education = () => {
   return (
-    <div id="contact" style={{ backgroundColor: "#1E1A1D" }}>
+    <div id="education" style={{ backgroundColor: "#1E1A1D" }}>
       <div className={styles.container}>
         <h2>EDUCATION</h2>
         <div className={styles.box}>

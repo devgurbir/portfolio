@@ -32,14 +32,15 @@ a {
 
 a {
   color: #fff;
-  transition: all 0.2s linear;
+  padding: 0.5rem;
 }
 
 a:hover {
   /* color: #b91372; */
   background-color: #b91372;
   color: #fff;
-  padding: 0.5rem;
+  transition: all 0.2s linear;
+
   border-radius: 3px;
 }
 
