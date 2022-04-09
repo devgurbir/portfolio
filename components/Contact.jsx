@@ -35,7 +35,11 @@ const Contact = () => {
           <div>
             <h4>Github</h4>
             <span>
-              <a target="_blank" href="https://github.com/devgurbir">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/devgurbir"
+              >
                 Link
               </a>
             </span>

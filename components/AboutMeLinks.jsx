@@ -9,6 +9,7 @@ const AboutMeLinks = () => {
     <div className={styles.aboutMeIcons}>
       <a
         target="_blank"
+        rel="noreferrer"
         href="https://www.linkedin.com/in/gurbir-singh-20641a157/"
       >
         <div className={styles.aboutMeIconsDiv}>
@@ -16,7 +17,7 @@ const AboutMeLinks = () => {
           <span>LinkedIn</span>
         </div>
       </a>
-      <a target="_blank" href="https://github.com/devgurbir">
+      <a target="_blank" rel="noreferrer" href="https://github.com/devgurbir">
         <div className={styles.aboutMeIconsDiv}>
           <FaGithub />
           <span>Github</span>
@@ -24,6 +25,7 @@ const AboutMeLinks = () => {
       </a>
       <a
         target="_blank"
+        rel="noreferrer"
         href="https://drive.google.com/file/d/1JKRDqIoW-ksBZqY5u6QJU48UtIa-46p3/view?usp=sharing"
       >
         <div className={styles.aboutMeIconsDiv}>
