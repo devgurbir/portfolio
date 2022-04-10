@@ -33,7 +33,11 @@ const ProjectSingleSugarCosmetics = () => {
           <TechStackPills text="Redux" />
         </div>
         <div className={styles.linkIcons}>
-          <a target="_blank" href="https://sugar-cosm.netlify.app/">
+          <a
+            rel="noreferrer"
+            target="_blank"
+            href="https://sugar-cosm.netlify.app/"
+          >
             <div className={styles.singleLinkIcon}>
               <FaLink />
               <span>Website</span>

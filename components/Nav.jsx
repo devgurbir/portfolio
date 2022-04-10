@@ -30,6 +30,7 @@ const Nav = () => {
             <li>
               <a
                 className={styles.highlighted}
+                rel="noreferrer"
                 target="_blank"
                 href="https://drive.google.com/file/d/1JKRDqIoW-ksBZqY5u6QJU48UtIa-46p3/view?usp=sharing"
               >
