@@ -32,7 +32,7 @@ const Nav = () => {
                 className={styles.highlighted}
                 rel="noreferrer"
                 target="_blank"
-                href="https://drive.google.com/file/d/1JKRDqIoW-ksBZqY5u6QJU48UtIa-46p3/view?usp=sharing"
+                href="https://drive.google.com/file/d/14tG-BOq7J9xLLUOJkAO8tkgWkRkEFYGa/view?usp=sharing"
               >
                 Resume
               </a>

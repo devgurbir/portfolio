@@ -9,35 +9,29 @@ const ProjectSingleTrello = () => {
   return (
     <div className={styles.projectSingle + " " + styles.reverseRow}>
       <div className={styles.leftProjectSingle}>
-        <h3>Trello Clone</h3>
-        <p>Trello is a web-based work management/collaboration tool.</p>
+        <h3>Reqer</h3>
+        <p>A web application to support your API development. Currently supports REST APIs.</p>
         <span>Core Responsibilities</span>
         <ul>
           <li>
-            Implemented user signup and signin flows using OAuth strategies from
-            PassportJS
+            Created the entire web app
           </li>
           <li>
-            Implemented card functionality with features like labels,
-            checklists, file uploads
+            Managed state solely with a combination of the contextAPI & the useReducer hook.
           </li>
           <li>
-            Created a REST API with multiple endpoints for CRUD operations
-            related to the card & workspace
+            Created a resizable component to change height of component on dragging.
           </li>
+          
         </ul>
         <div className={styles.techStack}>
           <TechStackPills text="React" />
-          <TechStackPills text="Redux" />
-          <TechStackPills text="NodeJS" />
-          <TechStackPills text="ExpressJS" />
-          <TechStackPills text="MongoDB" />
         </div>
         <div className={styles.linkIcons}>
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://trello-clone.com"
+            href="https://reqer.netlify.app/"
           >
             <div className={styles.singleLinkIcon}>
               <FaLink />
@@ -47,7 +41,7 @@ const ProjectSingleTrello = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://github.com/devgurbir/trello-clone-solo"
+            href="https://github.com/devgurbir/reqer"
           >
             <div className={styles.singleLinkIcon}>
               <FaGithub />
@@ -56,7 +50,7 @@ const ProjectSingleTrello = () => {
           </a>
         </div>
       </div>
-      <div className={styles.rightProjectSingle + " " + styles.trello}></div>
+      <div className={styles.rightProjectSingle + " " + styles.reqer}></div>
     </div>
   );
 };

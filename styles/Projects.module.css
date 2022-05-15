@@ -47,6 +47,13 @@
   background-position: center;
 }
 
+.reqer {
+  background: url("../public/reqer.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
 .leftProjectSingle h3 {
   font-size: 3em;
 }
