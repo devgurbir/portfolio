@@ -8,7 +8,7 @@ import Link from "next/link";
 const ProjectSingleSugarCosmetics = () => {
   return (
     <div
-      className={styles.projectSingle}
+      className={styles.projectSingle  + " " + styles.reverseRow}
       //   style={{ flexDirection: "row-reverse" }}
     >
       <div className={styles.leftProjectSingle}>

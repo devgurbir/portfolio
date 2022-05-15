@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const ProjectSingleReqer = () => {
   return (
-    <div className={styles.projectSingle + " " + styles.reverseRow}>
+    <div className={styles.projectSingle}>
       <div className={styles.leftProjectSingle}>
         <h3>Reqer</h3>
         <p>A web application to support your API development. Currently supports REST APIs.</p>
