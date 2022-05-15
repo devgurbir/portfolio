@@ -5,7 +5,7 @@ import { FaLink } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import Link from "next/link";
 
-const ProjectSingleTrello = () => {
+const ProjectSingleReqer = () => {
   return (
     <div className={styles.projectSingle + " " + styles.reverseRow}>
       <div className={styles.leftProjectSingle}>
@@ -55,4 +55,4 @@ const ProjectSingleTrello = () => {
   );
 };
 
-export default ProjectSingleTrello;
+export default ProjectSingleReqer
